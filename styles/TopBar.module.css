@@ -1,0 +1,13 @@
+.topBar {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+}
+.siteMenu {
+    list-style: none;
+}
+.siteMenu li {
+    display: inline;
+    line-height: 40px;
+    float: left;
+}
