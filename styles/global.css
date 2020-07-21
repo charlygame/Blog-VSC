@@ -26,3 +26,12 @@ img {
   max-width: 100%;
   display: block;
 }
+header {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,8 @@
+.socialTools {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 36px;
+}
+.socialTools span {
+    font-size: 25px;
+}

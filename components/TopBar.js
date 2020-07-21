@@ -4,7 +4,7 @@ import topBarStyle from '../styles/TopBar.module.css';
 
 export default function TopBar() {
     return <div className={topBarStyle.topBar}>
-        <div className="siteName">
+        <div className={topBarStyle.siteName}>
             <h1>发呆港</h1>
         </div>
         <ul className= {topBarStyle.siteMenu}>
@@ -15,7 +15,7 @@ export default function TopBar() {
         <div>
             <Search></Search>
         </div>
-        <div>
+        <div className={topBarStyle.login}>
             <Button type="primary">登录</Button>
         </div>
     </div>

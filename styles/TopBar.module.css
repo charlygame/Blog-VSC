@@ -1,13 +1,27 @@
 .topBar {
     display: flex;
-    justify-content: center;
-    background: #fff;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
 }
 .siteMenu {
     list-style: none;
+    width: 365px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px;
 }
 .siteMenu li {
-    display: inline;
     line-height: 40px;
     float: left;
+}
+
+.siteName {
+    display: flex;
+    align-items: center;
+}
+
+.siteName h1{
+    color: rgb(0, 132, 255);
+    margin: auto;
 }
