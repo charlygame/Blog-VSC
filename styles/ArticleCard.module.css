@@ -8,9 +8,13 @@
 .articleCard .richContent .richContentCover {
 
 }
+
+.touchArea {
+    cursor: pointer;    
+}
+
 .readAll {
     color: #175199;
-    cursor: pointer;
 }
 .readAll::after {
     content: '>>>'

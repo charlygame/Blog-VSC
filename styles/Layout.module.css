@@ -5,12 +5,19 @@
     /* border: solid 1px royalblue; */
     height: calc(100vh)
 }
+.sideBar {
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* border: solid 1px green */
+}
 .mainColumn {
     width: 70%;
     /* border: solid 1px red; */
     background: #fff;
     margin: 10px 0px;
 }
+
 .topTabs {
     border-bottom: 1px solid #f0f2f7;
     height: 59px;
@@ -21,10 +28,4 @@
     color: black;
     margin: 0px 20px;
 
-}
-.sideBar {
-    width: 30%;
-    margin-left: 10px;
-    margin-top: 10px;
-    /* border: solid 1px green */
 }
