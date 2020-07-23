@@ -1,7 +1,7 @@
 import {Input, Button} from 'antd'
 import Link from 'next/link'
 const Search = Input.Search;
-import topBarStyle from '../styles/TopBar.module.css';
+import topBarStyle from '../../styles/TopBar.module.css';
 
 export default function TopBar() {
     return <div className={topBarStyle.topBar}>

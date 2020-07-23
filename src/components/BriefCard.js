@@ -1,4 +1,4 @@
-import briefCardStyle from '../styles/BriefCard.module.css';
+import briefCardStyle from '../../styles/BriefCard.module.css';
 import SocialTools from './SocialTools';
 
 export default function BriefCard () {

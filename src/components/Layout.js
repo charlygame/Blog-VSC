@@ -1,7 +1,7 @@
 import TopBar from "./TopBar";
 import Head from 'next/head';
-import BriefCard from '../components/BriefCard';
-import layoutStyles from '../styles/Layout.module.css';
+import BriefCard from './BriefCard';
+import layoutStyles from '../../styles/Layout.module.css';
 // 公共组件
 export default function Layout({ children }) {
 

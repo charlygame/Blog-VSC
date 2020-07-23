@@ -1,5 +1,5 @@
 import {WechatOutlined, SendOutlined, GithubOutlined} from '@ant-design/icons'
-import socialStyles from '../styles/SocialTools.module.css'
+import socialStyles from '../../styles/SocialTools.module.css'
 
 export default function SocialTools() {
     return <div className={socialStyles.socialTools}>

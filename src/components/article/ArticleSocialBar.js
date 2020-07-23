@@ -1,6 +1,6 @@
 
 import {MessageOutlined, LikeOutlined, ShareAltOutlined} from "@ant-design/icons"
-import articleStyles from '../../styles/ArticleCard.module.css'
+import articleStyles from '../../../styles/ArticleCard.module.css'
 
 export default function ArticleSocialBar () {
     return <div className={articleStyles.articleSocialBar}>

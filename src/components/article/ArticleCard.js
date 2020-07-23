@@ -1,5 +1,5 @@
 
-import articleStyles from '../../styles/ArticleCard.module.css'
+import articleStyles from '../../../styles/ArticleCard.module.css'
 import ArticleSocialBar from './ArticleSocialBar';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
