@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
+    "dev": "cross-env NODE_ENV=development node server.js",
     "build": "next build",
     "start": "next start"
   },
@@ -13,8 +13,10 @@
     "@zeit/next-less": "^1.0.1",
     "antd": "^4.4.2",
     "babel-plugin-import": "^1.13.0",
+    "cross-env": "^7.0.2",
     "express": "^4.17.1",
     "less": "^3.12.2",
+    "mongoose": "^5.9.25",
     "next": "9.4.4",
     "postcss-preset-env": "^6.7.0",
     "react": "16.13.1",
