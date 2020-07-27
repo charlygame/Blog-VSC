@@ -1,8 +1,7 @@
 const jwt = require("../utils/jwt");
-
 const mongoose = require('mongoose');
 const User = mongoose.model('User');
-
+const resFormat = require('../utils/resFormat');
 /**
  * 只处理登录请求
  * @param {*} req 
@@ -29,10 +28,11 @@ exports.login = function(req, res) {
         }
         if (userInfo.username === req.query.username  && 
             userInfo.password === req.query.password) {
+                
                 // 发放token
-                res.status(200).json({
+                res.json(resFormat(200, {
                     token: jwt.generateAccessToken(userInfo.username)
-                });
+                }));
             }
     });
 }

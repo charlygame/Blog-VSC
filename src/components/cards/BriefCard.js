@@ -1,5 +1,5 @@
-import briefCardStyle from '../../styles/BriefCard.module.css';
-import SocialTools from './SocialTools';
+import briefCardStyle from '../../../styles/BriefCard.module.css';
+import SocialTools from '../SocialTools';
 
 export default function BriefCard () {
     return <div className={briefCardStyle.briefCard}>

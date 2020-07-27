@@ -55,18 +55,19 @@
         recordCount: 2,
         totalCount: 2,
         pageNo: 1,
-        totalPage: 1
+        totalPage: 1,
+        list: [
+            {
+                id: 1,
+                name: "xxx"
+            },
+            {
+                id: 2,
+                name: 'xxx'
+            }
+        ]
     }
-    list: [
-        {
-            id: 1,
-            name: "xxx"
-        },
-        {
-            id: 2,
-            name: 'xxx'
-        }
-    ]
+
 }
 ```
 > data.recordCount: 当前页记录条数  data.totalCount: 当前页总共记录条数

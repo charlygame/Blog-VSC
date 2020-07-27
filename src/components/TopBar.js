@@ -6,17 +6,13 @@ import useSWR from 'swr';
 import * as fetchers from '../utils/fetchers';
 export default function TopBar() {
 
-    let onClick = () => {
-        fetchers.createArticle({
-            title: '测试文章',
-            content: '这是文章内容',
-            tags: [1,2,3]
-        });
+    const onClick = () => {
+        console.log('执行登录命令');
     }
 
     return <div className={topBarStyle.topBar}>
         <div className={topBarStyle.siteName}>
-            <h1>发呆港</h1>
+            <h1>我的博客</h1>
         </div>
         <ul className= {topBarStyle.siteMenu}>
             <li><Link href="/"><a>首页</a></Link></li>
